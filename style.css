@@ -1,0 +1,270 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: darkgray;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    color: blue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: blueviolet;
+}
+
+section {
+    padding: 100px 200px;
+
+}
+
+.main {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image:url( image/WhatsApp\ Image\ 2021-12-28\ at\ 7.50.08\ PM.jpeg )  ;   
+    background-repeat:no-repeat ;
+}
+
+
+.main h2 {
+    color: rgb(80, 11, 145);
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: blue;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: rgb(68, 59, 21);
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: white;
+    background-color: darkslateblue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+.socal-icons a {
+    color: rgb(24, 11, 11);
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(7, 7, 97);
+    font-size: 3em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    padding: 25px;
+    margin: 15px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+.icons {
+    color: rgb(7, 7, 97);
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+    color: rgb(7, 7, 97);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects {
+    background-color: #000016;
+}
+
+.projects.content {
+    margin-top: 30px;
+}
+
+.projects-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transform: 0.7s ease;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.projects-card :hover {
+    transform: scale(1.1);
+}
+
+.projects-card :hover {
+    opacity: 0.9;
+}
+
+.projects-image img {
+    width: 100%;
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 0.8em;
+    color: #000;
+}
+
+.project-titlr {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details {
+    text-decoration: none;
+    color: #1461ed;
+    font-size: 27px;
+    margin-left: 115px;
+    text-align: center;
+}
+
+.more-datalist :hover {
+    color: rgb(14, 11, 184);
+}
+
+.cardsMyaccount .icons {
+    font-size: 4.5em;
+}
+
+.cardsMyaccount .info a {
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    color: rgb(14, 11, 184);
+}
+
+.cardsMyaccount .p {
+    font-size: 1.5em;
+}
+
+.navigation .signup {
+    color: rgb(85, 51, 51);
+}
+
+@media (max-width:1023px) {
+    header {
+        padding: 12px 20px;
+    }
+    .navigation a {
+        padding: 5px;
+    }
+    .title {
+        font-size: 1.7em;
+    }
+    section {
+        padding: 60px 10px;
+    }
+    .main-content h2 {
+        font-size: 0.8em;
+    }
+    .main-content h3 {
+        font-size: 1.7em;
+    }
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width:641px) {
+    body {
+        font-size: 11px;
+    }
+    .main-content h3 {
+        font-size: 1.1em;
+    }
+    .main-content h2 {
+        font-size: 1.0em;
+    }
+    @media(max-width:300px) {
+        body {
+            font-size: 8px;
+        }
+    }
+}
